@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 [![Platform](https://img.shields.io/cocoapods/p/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 
-Quickly create NSAttributedString with TextAttributes
+Quickly create NSAttributedString with [TextAttributes](https://github.com/delba/TextAttributes)
 
 ## Usage
 
