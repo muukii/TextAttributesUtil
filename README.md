@@ -5,11 +5,31 @@
 [![License](https://img.shields.io/cocoapods/l/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 [![Platform](https://img.shields.io/cocoapods/p/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 
+Quickly create NSAttributedString with TextAttributes
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### Before
 
-## Requirements
+```swift
+let attributes = TextAttributes()
+                    .font(UIFont.systemFontOfSize(14))
+                    .alignment(.Center)
+                    .foregroundColor(UIColor(white: 0.7, alpha: 1))
+
+let attributedText = NSAttributedString(string: "Hello, NSAttributedText", attributes: attributes)
+```
+
+### After
+```swift
+let attributedText = "Hello, NSAttributedText"
+    .attributed {
+        TextAttributes()
+            .font(UIFont.systemFontOfSize(14))
+            .alignment(.Center)
+            .foregroundColor(UIColor(white: 0.7, alpha: 1))
+    }
+```
 
 ## Installation
 
