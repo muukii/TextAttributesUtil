@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'  
 
   s.source_files = 'TextAttributesUtil/Classes/**/*'
-  s.dependency 'TextAttributes', '~> 0.2.1'
+  s.dependency 'TextAttributes', '~> 0.3'
 end
