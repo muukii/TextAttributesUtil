@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 [![License](https://img.shields.io/cocoapods/l/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
 [![Platform](https://img.shields.io/cocoapods/p/TextAttributesUtil.svg?style=flat)](http://cocoapods.org/pods/TextAttributesUtil)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Quickly create NSAttributedString with [TextAttributes](https://github.com/delba/TextAttributes)
 
