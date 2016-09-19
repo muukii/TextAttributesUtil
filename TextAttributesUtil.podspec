@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TextAttributesUtil"
-  s.version          = "0.1.1"
+  s.version          = "1.0.0"
   s.summary          = "Quickly create NSAttributedString with TextAttributes"
   s.description      = <<-DESC
                         Quickly create NSAttributedString with TextAttributes
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'  
 
   s.source_files = 'TextAttributesUtil/Classes/**/*'
-  s.dependency 'TextAttributes', '~> 0.3'
+  s.dependency 'TextAttributes'
 end
