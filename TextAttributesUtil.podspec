@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TextAttributesUtil"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Quickly create NSAttributedString with TextAttributes"
   s.description      = <<-DESC
                         Quickly create NSAttributedString with TextAttributes
