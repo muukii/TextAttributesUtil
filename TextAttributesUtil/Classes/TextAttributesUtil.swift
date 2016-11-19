@@ -25,7 +25,7 @@ import TextAttributes
 
 extension String {
     
-    public func attributed(block: () -> TextAttributes) -> NSAttributedString {
+    public func attributed(_ block: () -> TextAttributes) -> NSAttributedString {
         return NSAttributedString(string: self, attributes: block())
     }
 }
