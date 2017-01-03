@@ -24,8 +24,12 @@ import Foundation
 import TextAttributes
 
 extension String {
-    
-    public func attributed(_ block: () -> TextAttributes) -> NSAttributedString {
-        return NSAttributedString(string: self, attributes: block())
-    }
+
+  public func attributed(_ block: () -> TextAttributes) -> NSAttributedString {
+    return NSAttributedString(string: self, attributes: block())
+  }
+
+  public func attributed(_ a: TextAttributes) -> NSAttributedString {
+    return NSAttributedString(string: self, attributes: a)
+  }
 }
